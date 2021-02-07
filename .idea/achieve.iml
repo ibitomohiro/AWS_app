@@ -237,6 +237,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="bcrypt_pbkdf (vbundled(1.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/ext" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/test" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/ext" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/ext" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/bcrypt_pbkdf-1.1.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="bindex (vbundled(0.8.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -595,6 +616,24 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/dotenv-rails-2.7.6/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ed25519 (vbundled(1.2.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/ed25519-1.2.4/ext" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/ed25519-1.2.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/ed25519-1.2.4/ext" />
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/ed25519-1.2.4/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vender/bundle/ruby/2.6.0/gems/ed25519-1.2.4/ext" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
