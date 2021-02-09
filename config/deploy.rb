@@ -6,7 +6,7 @@ set :application, 'achieve'
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
 set :repo_url, 'https://github.com/ibitomohiro/AWS_app'
 # deployするブランチ。デフォルトはmasterなのでなくても可。
-set :branch, ENV['BRANCH'] || 'master'
+# デフォルトはmasterなのでなくても可set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
 set :deploy_to, '/var/www/achieve'
 # シンボリックリンクをはるフォルダ・ファイル
